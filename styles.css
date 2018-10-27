@@ -2,6 +2,10 @@ body {
     background-color: #d3d3d3;
     margin: 2% 10%;
 }
+#main-header {
+    margin-left: 50px;
+}
+
 #contact-me-body{
     margin: 0;
     padding: 0;
