@@ -90,8 +90,15 @@ border-color: coral;
 nav li {
     float: left;
     width: 20%;
+<<<<<<< HEAD
+    boarder-right: 1px solid #bbb;
+=======
     border-right:1px solid #bbb;
         text-align: center;
+<<<<<<< HEAD
+=======
+>>>>>>> 506c9b5dd717ce549686ff2546697a069bab8158
+>>>>>>> 0c9bdb1bdc4876a0baa8a272ae6b957745af5cfd
 }
 
 nav a {
@@ -111,3 +118,23 @@ nav a:hover:not(.active) {
     color: black;
     width: 50%;
 }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+@media screen and (max-width: 600px) {
+    nav li {
+        border-right: 5px solid white;
+    }
+    nav a {
+        display: inline;
+        padding: 2px 0px;
+        color: white;
+    }
+    body {
+        background-color: olive;
+        color: white;
+    }
+}
+=======
+>>>>>>> 506c9b5dd717ce549686ff2546697a069bab8158
+>>>>>>> 0c9bdb1bdc4876a0baa8a272ae6b957745af5cfd
