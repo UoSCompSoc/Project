@@ -63,10 +63,15 @@ table, span {
     margin-left: 10%;
 
 }
-h2 p {
+h2 p{
     float:left;
     width: 50%;
-    boarder: black;
+
+
+}
+p.recent-points{
+  border-style: solid;
+border-color: coral;
 }
 .status tr th {
     border-bottom-type: solid;
@@ -77,17 +82,23 @@ h2 p {
     list-style-type: none;
     overflow: hidden;
     background-color: black;
+    border-style: solid;
+    border-color: coral;
+    bottom: 0;
+    position: fixed;
 }
 nav li {
     float: left;
     width: 20%;
     border-right:1px solid #bbb;
+        text-align: center;
 }
+
 nav a {
     display: inline-block;
-    padding: 10px 50px;
+    padding: 1% 5%;
     color: white;
-    text-align: center;
+    
     text-decoration: none;
     width: 100%;
 }
