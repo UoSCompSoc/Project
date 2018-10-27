@@ -81,7 +81,7 @@ h2 p {
 nav li {
     float: left;
     width: 20%;
-    border-right:1px solid #bbb;
+    boarder-right: 1px solid #bbb;
 }
 nav a {
     display: inline-block;
@@ -99,4 +99,18 @@ nav a:hover:not(.active) {
     background-color: lightblue;
     color: black;
     width: 50%;
+}
+@media screen and (max-width: 600px) {
+    nav li {
+        border-right: 5px solid white;
+    }
+    nav a {
+        display: inline;
+        padding: 2px 0px;
+        color: white;
+    }
+    body {
+        background-color: olive;
+        color: white;
+    }
 }
