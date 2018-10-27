@@ -59,6 +59,10 @@ table, span {
     margin-left: 10%;
 
 }
+h2 p {
+    float:left;
+    width: 50%;
+}
 .status tr th {
     border-bottom-type: solid;
     border-bottom: black;
