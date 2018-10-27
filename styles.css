@@ -90,12 +90,8 @@ border-color: coral;
 nav li {
     float: left;
     width: 20%;
-<<<<<<< HEAD
-    boarder-right: 1px solid #bbb;
-=======
     border-right:1px solid #bbb;
         text-align: center;
->>>>>>> 506c9b5dd717ce549686ff2546697a069bab8158
 }
 
 nav a {
@@ -115,7 +111,6 @@ nav a:hover:not(.active) {
     color: black;
     width: 50%;
 }
-<<<<<<< HEAD
 @media screen and (max-width: 600px) {
     nav li {
         border-right: 5px solid white;
@@ -130,5 +125,3 @@ nav a:hover:not(.active) {
         color: white;
     }
 }
-=======
->>>>>>> 506c9b5dd717ce549686ff2546697a069bab8158
