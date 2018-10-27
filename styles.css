@@ -62,6 +62,7 @@ table, span {
 h2 p {
     float:left;
     width: 50%;
+    boarder: black;
 }
 .status tr th {
     border-bottom-type: solid;
