@@ -1,0 +1,93 @@
+body {
+    background-color: #d3d3d3;
+    margin: 2% 10%;
+}
+#contact-me-body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #d3d3d3;
+}
+
+form {
+    margin-top: 50px;
+    transition: all 2s ease-in-out;  /** Transition so form  slides down**/
+    max-width: 1200px;
+}
+
+.form-control {
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    color: black;
+    font-size: 18px;
+    margin-bottom: 16px;
+    cursor: text;
+}
+
+input {
+    height: 45px;
+}
+
+form .submit {
+    background: #0000ff;
+    border-color: transparent;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 31px;
+}
+
+form .submit:hover {
+    background-color: #f44336;
+    cursor: pointer;
+}
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ so right cursor shows  */
+    color: black;
+    opacity: 1;
+}
+
+
+table, span {
+    width: 70%;
+    margin-left: 10%;
+
+}
+.status tr th {
+    border-bottom-type: solid;
+    border-bottom: black;
+}
+/* Designing the navigation bar */
+#navigation {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: black;
+}
+nav li {
+    float: left;
+    width: 20%;
+    border-right:1px solid #bbb;
+}
+nav a {
+    display: inline-block;
+    padding: 10px 50px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+}
+nav a:hover:not(.active) {
+    background-color: #5F9EA0;
+    width: 50%;
+}
+.active {
+    background-color: lightblue;
+    color: black;
+    width: 50%;
+}
