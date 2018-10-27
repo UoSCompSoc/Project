@@ -86,6 +86,7 @@ border-color: coral;
     border-color: coral;
     bottom: 0;
     position: fixed;
+    width: 70%;
 }
 nav li {
     float: left;
