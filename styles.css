@@ -92,7 +92,6 @@ h2.recent-points{
 /* Designing the navigation bar */
 #navigation {
     list-style-type: none;
-    overflow: hidden;
     background-color: black;
     border-style: solid;
     border-color: coral;
@@ -102,10 +101,19 @@ h2.recent-points{
 }
 nav li {
     float: left;
-    width: 20%;
+    width: 23%;
     border-right:1px solid #bbb;
+<<<<<<< HEAD
         text-align: center;
 
+=======
+<<<<<<< HEAD
+    text-align: center;
+=======
+        text-align: center;
+
+>>>>>>> b4d0ab4edc1fa0fe18709dd0635ed686265f2ea6
+>>>>>>> 67213820fed9685b8245376dafa09791a4e6b88b
 }
 
 .status{
@@ -114,20 +122,27 @@ nav li {
 }
 nav a {
     display: inline-block;
+<<<<<<< HEAD
+    padding: 3% 5%;
+=======
     padding: 1% 5%;
     color: white;
 
+<<<<<<< HEAD
+=======
+>>>>>>> b4d0ab4edc1fa0fe18709dd0635ed686265f2ea6
+>>>>>>> 67213820fed9685b8245376dafa09791a4e6b88b
     text-decoration: none;
     width: 100%;
 }
 nav a:hover:not(.active) {
     background-color: #5F9EA0;
-    width: 50%;
+    width: 90%;
 }
 .active {
     background-color: lightblue;
     color: black;
-    width: 50%;
+    width: 90%;
 }
 
 @media screen and (max-width: 600px) {
@@ -143,3 +158,10 @@ nav a:hover:not(.active) {
         background-color: olive;
         color: white;
     }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+}
+=======
+>>>>>>> b4d0ab4edc1fa0fe18709dd0635ed686265f2ea6
+>>>>>>> 67213820fed9685b8245376dafa09791a4e6b88b
