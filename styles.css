@@ -4,6 +4,8 @@ body {
 }
 #main-header {
     margin-left: 50px;
+    border-style: solid;
+    border-color: coral;
 }
 
 #contact-me-body{
@@ -70,8 +72,18 @@ h2 p{
 
 }
 p.recent-points{
+
+float: left;
+width: 29%;
+margin-top: 3%;
+}
+.recent-points{
   border-style: solid;
 border-color: coral;
+margin: 0 10%;
+}
+h2.recent-points{
+  margin-top: 6%;
 }
 .status tr th {
     border-bottom-type: solid;
@@ -93,23 +105,18 @@ nav li {
     width: 20%;
     border-right:1px solid #bbb;
         text-align: center;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> 506c9b5dd717ce549686ff2546697a069bab8158
->>>>>>> 0c9bdb1bdc4876a0baa8a272ae6b957745af5cfd
->>>>>>> 580db346dd2239dac0989be657de9f3109ae5eee
->>>>>>> 4313cc92608e45b866d9f84d4dc66455b7870595
+
 }
 
+.status{
+  border-style: solid;
+  border-color: coral;
+}
 nav a {
     display: inline-block;
     padding: 1% 5%;
     color: white;
-    
+
     text-decoration: none;
     width: 100%;
 }
@@ -122,14 +129,7 @@ nav a:hover:not(.active) {
     color: black;
     width: 50%;
 }
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 4313cc92608e45b866d9f84d4dc66455b7870595
+
 @media screen and (max-width: 600px) {
     nav li {
         border-right: 5px solid white;
@@ -143,12 +143,3 @@ nav a:hover:not(.active) {
         background-color: olive;
         color: white;
     }
-<<<<<<< HEAD
-}
-=======
-}
-=======
->>>>>>> 506c9b5dd717ce549686ff2546697a069bab8158
->>>>>>> 0c9bdb1bdc4876a0baa8a272ae6b957745af5cfd
->>>>>>> 580db346dd2239dac0989be657de9f3109ae5eee
->>>>>>> 4313cc92608e45b866d9f84d4dc66455b7870595

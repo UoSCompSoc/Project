@@ -4,6 +4,13 @@
       <title>Geolocation</title>
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <link rel="stylesheet" href="bootstrap.css" type="text/css">
+      <link rel="stylesheet" href="bootstrap.min.css" type="text/css">
+        <link rel="stylesheet" href="bootstrap-grid.css" type="text/css">
+          <link rel="stylesheet" href="bootstrap-grid.min.css" type="text/css">
+            <link rel="stylesheet" href="bootstrap-reboot.css" type="text/css">
+              <link rel="stylesheet" href="bootstrap-reboot.min.css" type="text/css">
     <meta charset="utf-8">
     <style>
       /* Always set the map height explicitly to define the size of the div
@@ -50,6 +57,7 @@
               lat: position.coords.latitude,
               lng: position.coords.longitude
             };
+            
 
             infoWindow.setPosition(pos);
             infoWindow.setContent('Location found.');
@@ -79,7 +87,7 @@
 
 <nav>
     <ul id="navigation">
-        <li><a href="index.phtml">Home</a></li>
+        <li><a href="Home.phtml">Home</a></li>
         <li><a class="active" href="leaderBoard.phtml">LeaderBoard</a></li>
         <li><a href="topLocationPoints.phtml">Jam places</a></li>
         <li><a href="help.phtml">Help</a>
