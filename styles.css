@@ -4,6 +4,8 @@ body {
 }
 #main-header {
     margin-left: 50px;
+    border-style: solid;
+    border-color: coral;
 }
 
 #contact-me-body{
@@ -70,8 +72,18 @@ h2 p{
 
 }
 p.recent-points{
+
+float: left;
+width: 29%;
+margin-top: 3%;
+}
+.recent-points{
   border-style: solid;
 border-color: coral;
+margin: 0 10%;
+}
+h2.recent-points{
+  margin-top: 6%;
 }
 .status tr th {
     border-bottom-type: solid;
@@ -91,12 +103,27 @@ nav li {
     float: left;
     width: 23%;
     border-right:1px solid #bbb;
+<<<<<<< HEAD
     text-align: center;
+=======
+        text-align: center;
+
+>>>>>>> b4d0ab4edc1fa0fe18709dd0635ed686265f2ea6
 }
 
+.status{
+  border-style: solid;
+  border-color: coral;
+}
 nav a {
     display: inline-block;
+<<<<<<< HEAD
     padding: 3% 5%;
+=======
+    padding: 1% 5%;
+    color: white;
+
+>>>>>>> b4d0ab4edc1fa0fe18709dd0635ed686265f2ea6
     text-decoration: none;
     width: 100%;
 }
@@ -123,4 +150,7 @@ nav a:hover:not(.active) {
         background-color: olive;
         color: white;
     }
+<<<<<<< HEAD
 }
+=======
+>>>>>>> b4d0ab4edc1fa0fe18709dd0635ed686265f2ea6
